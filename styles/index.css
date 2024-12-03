@@ -33,7 +33,13 @@
 }
 #footer{
     color:grey;
-
+    bottom: 150%;
+    display:flex;
+    position:absolute;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height: 10%;
 }
 body{
     margin:0;
@@ -42,6 +48,10 @@ body{
 p {
     color: white;
     font-family: "Raleway", "Arial", sans-serif;
+}
+#footerText {
+    color:black;
+    font-size: 10px;
 }
 a {
     color: white;
