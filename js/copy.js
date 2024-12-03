@@ -5,4 +5,7 @@ async function copyToClipboard(){
     //im too lazy to go make a proper hovertext thing, il do it later
     alert("Copied!")
 }
-copyButton.addEventListener("click",copyToClipboard)
+function silly(){
+    copyButton.addEventListener("click",copyToClipboard)
+}
+window.setTimeout(silly, 100);
