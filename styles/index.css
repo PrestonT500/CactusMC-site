@@ -32,8 +32,8 @@
     color:#1dc460;
 }
 #footer{
-    color:grey;
-    bottom: 150%;
+    background-color:grey;
+    top: 150%;
     display:flex;
     position:absolute;
     justify-content: center;
