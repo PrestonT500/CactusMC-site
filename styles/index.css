@@ -6,8 +6,8 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width:90%;
-    height:15%;
+    width:100%;
+    height:100%;
 }
 #navbarContainer{
     display: flex;
@@ -15,36 +15,40 @@
     height:17%;
     justify-content: center;
     align-items: center;
+    margin:10px;;
 }
 #navbar > a {
     padding-left: 5px;
     padding-right: 5px;
-    font-size: 10px;
+    font-size: 20px;
     text-decoration: none;
 }
 #bigtext{
-    font-size: 13px;
+    font-size: 25px;
     font-weight: bold;
     padding-left: 10px;
     padding-right: 10px;
-    color:#247909;
+    color:#1dc460;
 }
 #footer{
     color:grey;
 
 }
 body{
+    margin:0;
     /* ask cactus for a nice background color (or if he just wants white) */
 }
 p {
     color: white;
-    font-style: "Raleway", "Arial", sans-serif;
+    font-family: "Raleway", "Arial", sans-serif;
 }
 #copyIp{
     display: flex;
     flex-direction: row;
     height:15px;
+    margin-left:60px;
 }
+
 #copyIcon{
     font-size:7px;
     z-index: 2;
@@ -59,8 +63,11 @@ p {
 }
 #ip{
     height:15px;
-    width: 25px;
+    width: 100px;
 }
 input{
-    font-style: "Raleway", "Arial", sans-serif;
+    font-family: "Raleway", "Arial", sans-serif;
+}
+#discord{
+    color: #5865F2
 }
