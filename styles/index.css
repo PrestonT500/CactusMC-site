@@ -8,6 +8,7 @@
     align-items: center;
     width:96%;
     height:100%;
+    z-index: 11111;
 }
 #navbarContainer{
     display: flex;
@@ -109,4 +110,6 @@ input{
     justify-content: center;
     align-items: center;
     height: 70%;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
