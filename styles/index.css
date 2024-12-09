@@ -33,7 +33,6 @@
 }
 #footer{
     background-color:grey;
-    top: 150%;
     display:flex;
     position:absolute;
     justify-content: center;
@@ -99,4 +98,13 @@ input{
     width:90%;
     z-index: 2;
     padding: 20px;
+}
+#aboutP{
+    color:black;
+}
+#centerThing{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
