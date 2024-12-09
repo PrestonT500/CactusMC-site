@@ -44,6 +44,9 @@
 body{
     margin:0;
     /* ask cactus for a nice background color (or if he just wants white) */
+    /* this ones jut some temporary shit i whipped up on a css gradient maker */
+    background: rgb(34,246,231);
+    background: linear-gradient(42deg, rgba(34,246,231,1) 0%, rgba(10,218,57,1) 46%, rgba(16,125,37,1) 100%);
 }
 p {
     color: white;
@@ -85,4 +88,14 @@ input{
 }
 #discord{
     color: #5865F2
+}
+#aboutText{
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+    width:90%;
+    z-index: 2;
 }
