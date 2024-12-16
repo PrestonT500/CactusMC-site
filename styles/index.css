@@ -106,6 +106,8 @@ input{
 }
 #aboutP{
     color:black;
+    display: flex;
+    flex-direction: column;
 }
 #centerThing{
     width: 100%;
