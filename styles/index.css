@@ -49,6 +49,7 @@ body{
     background: rgb(34,246,231);
     background: linear-gradient(42deg, rgba(34,246,231,1) 0%, rgba(10,218,57,1) 46%, rgba(16,125,37,1) 100%);
     height:fit-content;
+    min-height: 100vh;
 }
 p {
     color: white;
