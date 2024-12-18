@@ -6,7 +6,11 @@ function sillyToClipboard(value) {
 async function copyToClipboard(){
     //ik this function is deprecated, but the main clipboard api doesnt work for me
     sillyToClipboard(ipField.value)
+    ipField.className = "bi bi-clipboard-check-fill"
+    setTimeout(() => {
+      ipField.className = "bi bi-clipboard"
+    },6000)
     //im too lazy to go make a proper hovertext thing, il do it later
-    alert("Copied!")
+    alert(" IP Copied!")
 }
 copyButton.addEventListener("click",copyToClipboard)
