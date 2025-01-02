@@ -31,11 +31,11 @@
 }
 
 #bigtext{
-    font-size: 25px;
-    font-weight: bold;
-    padding-left: 10px;
-    padding-right: 10px;
-    color:#1dc460;
+    font-size: 25px !important;
+    font-weight: bold !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    color:#1dc460 !important;
 }
 #footer{
     background-color:grey;
@@ -125,4 +125,7 @@ input{
     height: 70%;
     margin-top: 2%;
     margin-bottom: 2%;
+}
+#diddy{
+    color: #5865F2 !important;
 }
