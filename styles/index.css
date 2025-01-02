@@ -25,7 +25,20 @@
     font-size: 20px;
     text-decoration: none;
 }
-
+#images > img {
+    width: 100px;
+    height: 200px;
+    border-color: initial;
+    border-radius: 0;
+}
+#images > img:hover{
+    border-radius: 20px;
+    border-color: beige;
+}
+#images {
+    display: flex;
+    flex-direction: row;
+}
 #navbar a:hover {
     cursor: pointer;
 }
